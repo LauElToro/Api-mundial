@@ -1,7 +1,7 @@
 from flask import Flask
 import requests
 from settings import *
-
+import os 
 app = Flask(__name__)
 
 WDQS_ENDPOINT = 'https://query.wikidata.org/sparql'
